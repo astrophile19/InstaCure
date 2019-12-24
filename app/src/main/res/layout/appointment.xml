@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#75BDE9"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/b_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#E60F65"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="New Appointment"
+        android:textAllCaps="false"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/b_wait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#E60F65"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="Unapproved Appointments"
+        android:textAllCaps="false"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/b_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#E60F65"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="Confirmed Appointments"
+        android:textAllCaps="false"
+        android:textSize="17dp" />
+
+</LinearLayout>

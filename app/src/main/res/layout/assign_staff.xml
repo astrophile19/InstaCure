@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#75BDE9"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0F9B89"
+        android:gravity="center_horizontal"
+        android:text="Assign Staff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00C853"
+        android:gravity="center_horizontal"
+        android:text="Select Doctor :"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:id="@+id/spinner_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="#0097A7"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00C853"
+        android:gravity="center_horizontal"
+        android:text="Select Staff Member :"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:id="@+id/spinner_staff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="#0097A7"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/b_assign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#E60F65"
+        android:text="Assign" />
+
+</LinearLayout>

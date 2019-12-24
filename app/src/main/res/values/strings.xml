@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InstaCure</string>
+    <string name="user_credentials">"USER_CREDENTIALS</string>
+    <string name="doctor_leaves">DOCTOR_LEAVES</string>
+    <string name="doctor_slot">DOCTOR_SLOT</string>
+    <string name="all_doctor_slots">all_doctor_slots</string>
+    <string name="all_pending_appointment">all_pending_appointment</string>
+    <string name="doctor_patient">DOCTOR_PATIENT</string>
+    <string name="staff">STAFF</string>
+    <string name="title_activity_specilaization">Specilaization</string>
+
+    <string name="services"> <h1>WELCOME To INSTACURE</h1></string>
+    <string name="Services_provided_1"> This is an holistic app where booking doctor appointments are one click away from
+     wherever you are.Now you could consult doctor being at your home and do not have to wait for long list of patients to get your turn</string>
+</resources>

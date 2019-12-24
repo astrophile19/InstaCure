@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B4A70"
+    tools:context=".Services_provided">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="351dp"
+        android:layout_height="46dp"
+        android:background="#0F9B89"
+        android:gravity="center"
+        android:text="Services Provided"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="67dp"
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:text="@string/services"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#B31850"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="308dp"
+        android:layout_height="178dp"
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:text="@string/Services_provided_1"
+        android:textColor="#C51162"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+</androidx.constraintlayout.widget.ConstraintLayout>
